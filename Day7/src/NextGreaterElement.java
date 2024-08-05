@@ -2,9 +2,9 @@ import java.util.Arrays;
 
 public class NextGreaterElement {
     public static void main(String[] args) {
-        int[] nums = {7, 1, 5, 3, 6, 4};
+        int[] nums = {0,1,0,2,1,0,1,3,2,1,2,1};
 
-        System.out.println(Arrays.toString(NGER(nums)));
+        System.out.println(Arrays.toString(NGEL(nums)));
     }
 
     private static int[] NGEL(int[] arr) {
