@@ -19,7 +19,7 @@ public class Main {
     }
     public static void main(String[] args) {
         //Reach Pitampura
-        int distance= 1000, time= 2;
+        int distance= 1000, time= 3;
         System.out.println(reachCenter(distance, time));
     }
 }
